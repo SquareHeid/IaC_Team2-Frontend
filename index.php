@@ -17,7 +17,10 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
   // output data of each row
   while($row = $result->fetch_assoc()) {
-    echo " - Name: " . $row["firstname"]. " " . $row["rollnumber"]. "<br>";
+    echo "<table>";
+    echo "<tr><th>Name</th><th>Roll Number</th></tr>";
+    echo "<tr><td>" . $row["firstname"]. "</td><td>" . $row["rollnumber"]. "</td></tr>";
+    echo "<table>";
   }
 } else {
   echo "0 results";
