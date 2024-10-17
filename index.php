@@ -15,7 +15,6 @@
         <h1>Team 2 Demonstration App with Fontend<>Backend connectivity</h1>
         <p>The below results are gather from a MySQL DB container running on openshift</p>
 		<p>The source code is held in github, and when changes ar epushed the appliciton is automatically rebuilt</p>
-		<p>And the source code has been changed</p>
 	<table>
 	<tr><th>Name</th><th>Roll Number</th></tr>
 
