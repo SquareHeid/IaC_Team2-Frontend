@@ -14,8 +14,8 @@ if ($conn->connect_error) {
 $sql = "SELECT firstname, rollnumber FROM tb1";
 $result = $conn->query($sql);
 
-echo "<h1>Team 2 Demonstration App</h1>";
-echo "<h2> Uses a PHP front end to query a MySQL backend database, deployed via Openshift and with source code controlled via github VCS.</h2>";
+echo "<h2>Team 2 Demonstration App</h2>";
+echo "<h3> Uses a PHP front end to query a MySQL backend database, deployed via Openshift and with source code controlled via github VCS.</h3>";
 echo "<table>";
 echo "<tr><th>Name</th><th>Roll Number</th></tr>";
 if ($result->num_rows > 0) {
